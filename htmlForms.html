@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>forms</title>
+</head>
+<body>
+<!-- 	this is going to be commented out
+ --><form action="www.g.come/g.php" method="post">
+	<fieldset>
+		<legend>Your Details: </legend>
+			<p>
+				<label for="N">
+					Name: <input type="text" name="N" size="30" maxlength="100"><br/>
+					
+				</label><br>
+				<label for="E"> 
+					Email: <input type="Email" name="E" size="30" maxlength="100">
+				</label>
+			</p>
+		
+	</fieldset><br>
+	<fieldset>
+		<legend> Your View: </legend>
+		<label for="sel">How did you hear about us? <select name="drop" id="sel">
+			<option value="op1"> Google</option>
+			<option value="op2"> Yahoo</option>
+			<option value="op3"> Bing</option>
+		</select></label>
+		<br/>
+		<br>
+		Would you visit again?<br>
+		<label for="yy"> <input type="radio" name="rating" id="yy" value="yes">Yes </label>
+			
+		
+		<label for="nn"><input type="radio" name="rating" id="nn" value="No">No</label>
+		<label for="mm"><input type="radio" name="rating" id="mm" value="Maybe">Maybe</label>	
+		<br>
+	    <br>
+            <p>
+			<label for="comm">comments: <br>
+		<textarea cols="35" rows="6" placeholder="write down your comments here..."  id="comm"> </textarea></label> <br>
+		<label for="cc"><input type="checkbox" name="check" id="cc" checked="checked"> Sign me up for email updates</label><br>
+		<input type="submit" name="" value="submit">
+	</p>
+	</fieldset>
+
+
+
+
+	
+</form>
+</body>
+</html>
